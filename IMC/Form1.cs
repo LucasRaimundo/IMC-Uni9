@@ -47,5 +47,10 @@ namespace IMC
 
             label5.Visible = true;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
